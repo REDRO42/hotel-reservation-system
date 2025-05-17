@@ -1,17 +1,17 @@
-# Otel Rezervasyon Sistemi
+# Hotel Reservation System
 
-Bu proje, Java ile geliştirilmiş bir otel rezervasyon yönetim sistemidir. Swing arayüzü kullanılarak masaüstü uygulaması olarak tasarlanmıştır.
+This project is a hotel reservation management system developed with Java. It is designed as a desktop application using Swing interface.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- Oda yönetimi (ekleme, düzenleme, silme)
-- Rezervasyon işlemleri
-- Fiyatlandırma yönetimi
-- Müşteri bilgileri takibi
-- Tarih bazlı rezervasyon kontrolü
-- MySQL veritabanı entegrasyonu
+- Room management (add, edit, delete)
+- Reservation operations
+- Pricing management
+- Customer information tracking
+- Date-based reservation control
+- MySQL database integration
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 - Java 11
 - Swing (GUI)
@@ -19,55 +19,55 @@ Bu proje, Java ile geliştirilmiş bir otel rezervasyon yönetim sistemidir. Swi
 - Maven
 - JUnit 5 (Unit Testing)
 - Mockito (Test Mocking)
-- Jackson (JSON işlemleri)
+- Jackson (JSON processing)
 
-## 📋 Gereksinimler
+## 📋 Requirements
 
-- JDK 11 veya üzeri
+- JDK 11 or higher
 - MySQL 8.0
-- Maven 3.6 veya üzeri
+- Maven 3.6 or higher
 
-## 🔧 Kurulum
+## 🔧 Installation
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
-git clone https://github.com/https://github.com/redro42/otel-rezervasyon-sistemi.git
+git clone https://github.com/redro42/hotel-reservation-system.git
 ```
 
-2. Proje dizinine gidin:
+2. Navigate to the project directory:
 ```bash
-cd otel-rezervasyon-sistemi
+cd hotel-reservation-system
 ```
 
-3. Maven bağımlılıklarını yükleyin:
+3. Install Maven dependencies:
 ```bash
 mvn clean install
 ```
 
-4. MySQL veritabanını oluşturun ve yapılandırın:
-   - MySQL sunucunuzu başlatın
-   - Veritabanı şemasını oluşturun
-   - Bağlantı ayarlarını yapılandırın
+4. Set up MySQL database:
+   - Start your MySQL server
+   - Create the database schema
+   - Configure connection settings
 
-5. Uygulamayı çalıştırın:
+5. Run the application:
 ```bash
 mvn exec:java
 ```
 
-## 🧪 Testler
+## 🧪 Tests
 
-Projede kapsamlı unit testler bulunmaktadır. Testleri çalıştırmak için:
+The project includes comprehensive unit tests. To run the tests:
 
 ```bash
 mvn test
 ```
 
-Test kapsamı:
-- Model sınıfları (Oda, Rezervasyon, FiyatAyar)
-- Veritabanı işlemleri
-- İş mantığı kontrolleri
+Test coverage:
+- Model classes (Room, Reservation, PriceSetting)
+- Database operations
+- Business logic controls
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 src/
@@ -75,32 +75,32 @@ src/
 │   ├── java/
 │   │   └── com/
 │   │       └── otelrezervasyon/
-│   │           ├── dao/         # Veritabanı erişim katmanı
-│   │           ├── model/       # Veri modelleri
-│   │           ├── ui/          # Kullanıcı arayüzü
-│   │           └── util/        # Yardımcı sınıflar
-│   └── resources/              # Kaynak dosyaları
+│   │           ├── dao/         # Database access layer
+│   │           ├── model/       # Data models
+│   │           ├── ui/          # User interface
+│   │           └── util/        # Utility classes
+│   └── resources/              # Resource files
 └── test/
     └── java/
         └── com/
             └── otelrezervasyon/
-                └── model/       # Unit testler
+                └── model/       # Unit tests
 ```
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Bu depoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/yeniOzellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik: Açıklama'`)
-4. Branch'inizi push edin (`git push origin feature/yeniOzellik`)
-5. Pull Request oluşturun
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 İletişim
+## 👥 Contact
 
-Proje Sahibi - [@github_username](https://github.com/github_username)
+Project Owner - [@redro42](https://github.com/redro42)
 
-Proje Linki: [https://github.com/github_username/otel-rezervasyon-sistemi](https://github.com/github_username/otel-rezervasyon-sistemi) 
+Project Link: [https://github.com/redro42/hotel-reservation-system](https://github.com/redro42/hotel-reservation-system) 
